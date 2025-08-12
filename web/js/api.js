@@ -6,7 +6,8 @@ class PhoneTrackerAPI {
             'Content-Type': 'application/json'
         };
     }
-
+  
+    
     // Generic HTTP request method
     async request(endpoint, options = {}) {
         try {
